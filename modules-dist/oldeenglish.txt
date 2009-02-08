@@ -1,0 +1,6 @@
+name=Olde English
+feed_url=http://www.oldeenglish.org/podcast/feed/
+site_url=http://www.oldeenglish.org
+tags=video, comedy
+match_body=/<p class="videoblock">(.*?)<\/p>/i
+match_body_num=1

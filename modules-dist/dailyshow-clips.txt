@@ -1,0 +1,11 @@
+name=The Daily Show (clips)
+feed_url=http://www.hulu.com/feed/show/902/clips
+site_url=http://www.hulu.com/the-daily-show-with-jon-stewart
+tags=video, comedy, news
+match_body=/<link rel="video_src" href="(http:\/\/www.hulu.com\/embed\/[^"]+)" \/>/i
+match_body_num=1
+prepend=<embed width="512" height="296" src="
+append=" type="application/x-shockwave-flash"/>
+
+
+# <embed width="790" height="368" flashvars="stage_width=790&amp;stage_height=368&amp;content_id=m1ppqrla&amp;bitrate=700000&amp;user_id=-1" bgcolor="#282727" allowfullscreen="true" allowscriptaccess="sameDomain" quality="high" name="player" id="player" style="z-index: 10;" src="/player.swf" type="application/x-shockwave-flash"/>

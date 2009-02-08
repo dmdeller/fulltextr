@@ -1,0 +1,9 @@
+name=Evil Avatar
+feed_url=http://evilavatar.com/forums/external.php?type=rss2&forumids=2
+site_url=http://www.evilavatar.com
+tags=news, games, forum
+match_body=/<!-- message -->(.*?)<!-- \/ message -->/i
+match_body_num=1
+charset=iso-8859-1
+match_item_url=/&goto=[a-z]+/i
+replace_item_url=&

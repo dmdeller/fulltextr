@@ -1,0 +1,8 @@
+name=New York Times
+comments=Sometimes fails when the site shows an ad instead of the article
+feed_url=http://graphics.nytimes.com/services/xml/rss/nyt/HomePage.xml
+site_url=http://www.nytimes.com
+tags=news
+match_body=/<NYT_TEXT(\s+)?>(.*)<\/NYT_TEXT>/i
+match_body_num=2
+charset=iso-8859-1

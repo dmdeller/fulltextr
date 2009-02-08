@@ -1,0 +1,7 @@
+name=MacRumors
+feed_url=http://www.macrumors.com/macrumors.xml
+site_url=http://www.macrumors.com
+tags=news, apple
+match_body=/<div class="storybody">(.*)?<\/div>\s+<p class="storycomments">/i
+match_body_num=1
+charset=ISO-8859-1

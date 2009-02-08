@@ -1,0 +1,6 @@
+name=Giant Bomb
+feed_url=http://www.giantbomb.com/feed/
+site_url=http://www.giantbomb.com/
+tags=games
+match_body=/<div class="entry-content">(.*?)<\/div>/i
+match_body_num=1

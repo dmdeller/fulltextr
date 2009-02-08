@@ -1,0 +1,6 @@
+name=Crazy Apple Rumors Site
+feed_url=http://www.crazyapplerumors.com/?feed=atom
+site_url=http://www.crazyapplerumors.com
+tags=comedy, apple
+match_body=/<div class="storyContent">(.*?)<\/div>\s+<!-- story content -->/i
+match_body_num=1

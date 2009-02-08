@@ -1,0 +1,7 @@
+name=Ars Technica Journals (Science)
+feed_url=http://feeds.arstechnica.com/arstechnica/science
+site_url=http://arstechnica.com/journals/science.ars
+tags=blog, science
+match_body=/(<div class="Body">\s+.*?<div class="PostOptions">.*?<\/div>)/i
+match_body_num=1
+extra_css=img { border: none; } .ImageLeft { float: left; margin: 5px 10px 10px 0; text-align: center; } .ImageRight { float: right; margin: 5px 0 10px 10px; text-align: center; } .CenteredImage { color: #690000; margin: 10px 0; text-align: center; }

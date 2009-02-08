@@ -1,0 +1,9 @@
+name=Nintendo World Report
+comments=Doesn't work on media pages
+feed_url=http://www.nintendoworldreport.com/rss.cfm
+site_url=http://www.nintendoworldreport.com
+tags=news, games, nintendo
+match_body=/<div id="article">.*(<h4>.*<\/h4>.*<p>.*<\/p>).*<div id="cr">/i
+match_body_num=1
+remove=/<div class="bad" .*?<\/div>/i
+charset=iso-8859-1

@@ -1,0 +1,8 @@
+name=Ars Technica
+feed_url=http://feeds.arstechnica.com/arstechnica/BAaf
+site_url=http://arstechnica.com
+tags=news, tech
+match_body=/(<div class="Body">\s+(<div class="Body">\s+)?(<div class="Inset RelatedStories">.*?<\/div>\s+)?.*?<div class="PostOptions\s*[a-z]*">.*?<\/div>)/i
+match_body_num=1
+remove=/<div class="Inset RelatedStories">.*?<\/div>/i
+extra_css=img { border: none; }

@@ -1,0 +1,6 @@
+name=PSP-Vault
+feed_url=http://www.psp-vault.com/backend.php
+site_url=http://www.psp-vault.com
+tags=news, games, sony, psp
+match_body=/<div class="newscontent">(.*?)<\/div>\s+<div style="text-align: center">\s+<script type="text\/javascript">/i
+match_body_num=1

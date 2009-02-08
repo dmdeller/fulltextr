@@ -1,0 +1,8 @@
+name=Slashdot (main page)
+feed_url=http://rss.slashdot.org/Slashdot/slashdot
+site_url=http://slashdot.org
+tags=news, tech
+match_body=/(<div class="intro">.*?<\/div>)/i
+match_body_num=1
+extra_css=div.intro i { display: block; padding: 0 0 0 .85em; margin: .25em 0 .6em 0; font-style: normal; border-left: 3px solid #ddd; }
+charset=iso-8859-1

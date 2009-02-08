@@ -1,0 +1,32 @@
+These are really detailed instructions, for those who need a little hand-holding. And also because I was bored.
+
+
+In Mac OS X:
+
+1. Download and install PHP 5. You can get it here: http://www.entropy.ch/software/macosx/php/
+2. Go to Apple menu > System Preferences. Click 'Sharing'. Click 'Personal Web Sharing'. Click 'Start'. (If it was already running, click 'Stop' and then 'Start' to complete the PHP installation.) Don't worry, this will only share items that are in your 'Sites' folder.
+3. Place the fulltextr.tar.gz file in your 'Sites' folder, which is in your user folder. Open it to extract the files (this requires Stuffit Expander or a similar utility).
+4. Open the 'config.php' in the 'fulltextr' folder that was created, and make sure the settings are correct.
+5. Open your web browser and go to http://localhost/~yourshortusername/fulltextr/ (yourshortusername should be replaced with the name on your user folder).
+6. Subscribe to the feeds that are listed, and enjoy!
+
+In Ubuntu Linux:
+
+1. Go to the System menu > Administration > Synaptic Package Manager. You will need to enter your password.
+2. Search for the 'apache2' package. When you find it, click the checkbox next to its name and select 'mark for installation'. Accept any additional required changes.
+3. Search for 'libapache2-mod-php5' and do the same.
+4. Click the 'Apply' button.
+5. Go to your home folder, and create a new folder called 'public_html' (unless it already exists). Place the fulltextr.tar.gz file in your 'public_html' folder. Open it to extract the files.
+6. Open the 'config.php' in the 'fulltextr' folder that was created, and make sure the settings are correct.
+7. Open your web browser and go to http://localhost/~yourusername/fulltextr/
+8. Subscribe to the feeds that are listed, and enjoy!
+
+Other operating systems:
+
+1. Install a web server. (Apache?)
+2. Install PHP 5.
+3. Extract fulltextr.tar.gz to a directory that is shared by the web server.
+4. Open the 'config.php' in the 'fulltextr' folder that was created, and make sure the settings are correct.
+5. Make sure the 'cache' and 'cache2' directories are writeable by the web server (in UNIX-based systems, this is already done for you).
+6. Open your web browser and go to the fulltextr path relative to where you extracted it on localhost.
+7. Subscribe to the feeds that are listed, and enjoy!

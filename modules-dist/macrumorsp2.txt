@@ -1,0 +1,7 @@
+name=MacRumors (page 2)
+feed_url=http://www.macrumors.com/page2.xml
+site_url=http://page2.macrumors.com/
+tags=apple
+match_body=/<div class="storybody">(.*)?<\/div>\s+<p class="storycomments">/i
+match_body_num=1
+charset=ISO-8859-1

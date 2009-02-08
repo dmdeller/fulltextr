@@ -1,0 +1,10 @@
+name=The Colbert Report
+feed_url=http://www.comedycentral.com/rss/colbertvideos.jhtml
+site_url=http://www.comedycentral.com/shows/the_colbert_report/index.jhtml
+tags=video, comedy, news
+match_body=/\?[^"]*playVideo=([0-9]+)";/i
+match_body_num=1
+prepend=<embed FlashVars="videoId=
+append=" src="http://www.comedycentral.com/sitewide/video_player/view/default/swf.jhtml" quality="high" bgcolor="#cccccc" width="332" height="316" name="comedy_central_player" align="middle" allowScriptAccess="always" allownetworking="external" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+# <embed FlashVars='config=http://www.comedycentral.com/motherload/xml/data_synd.jhtml?vid=89317%26myspace=false' src='http://www.comedycentral.com/motherload/syndicated_player/index.jhtml' quality='high' bgcolor='#006699' width='340' height='325' name='comedy_player' align='middle' allowScriptAccess='always' allownetworking='external' type='application/x-shockwave-flash' pluginspage='http://www.macromedia.com/go/getflashplayer'></embed>
+# <embed FlashVars="videoId=91641" src="http://www.comedycentral.com/sitewide/video_player/view/default/swf.jhtml" quality="high" bgcolor="#cccccc" width="332" height="316" name="comedy_central_player" align="middle" allowScriptAccess="always" allownetworking="external" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>

@@ -1,0 +1,6 @@
+name=The Macalope (at CNET)
+feed_url=http://blogs.cnet.com/8300-13509_1-20.xml
+site_url=http://blogs.cnet.com/macalope
+tags=blog, apple
+match_body=/<div class="postBody">(.*)?<\/div>\s+<div class="postComment">/i
+match_body_num=1
